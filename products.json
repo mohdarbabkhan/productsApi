@@ -1,0 +1,44 @@
+[
+    {
+        "name":"iphone",
+        "price":"99",
+        "featured":true,
+        "company":"apple"
+    },
+    {
+        "name":"iphone10",
+        "price":"999",
+        "featured":true,
+        "company":"apple"
+    },
+    {
+        "name":"iphone14",
+        "price":"9999",
+        "featured":true,
+        "company":"apple"
+    },
+    {
+        "name":"j7 Prime",
+        "price":"1234",
+        "featured":true,
+        "company":"samsung"
+    },
+    {
+        "name":"Poco x2",
+        "price":"12000",
+        "featured":true,
+        "company":"mi"
+    },
+    {
+        "name":"redmi k8",
+        "price":"12134",
+        "featured":false,
+        "company":"mi"
+    },
+    {
+        "name":" dell 20",
+        "price":"50000",
+        "featured":false,
+        "company":"dell"
+    }
+]
