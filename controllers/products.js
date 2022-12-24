@@ -29,11 +29,11 @@ const getProducts = async(req,res)=>{
         apiData = await apiData.select(selectFix);
     }
     /* --------------PAGINATION--------------*/
-    let page = Number(req.query.page) || 1;
-    let limit = Number(req.query.limit) || 5;
-    let skip = (page-1) * limit;
+    // let page = Number(req.query.page) || 1;
+    // let limit = Number(req.query.limit) || 5;
+    // let skip = (page-1) * limit;
 
-    apiData = apiData.skip(skip).limit(limit);
+    // apiData =  apiData.skip(skip).limit(limit);
     const products = await apiData;
     res.status(200).json({products, nbHits:apiData.length}); 
 }
